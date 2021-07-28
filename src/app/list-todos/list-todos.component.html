@@ -1,0 +1,18 @@
+<div class="container">
+<table class="table">
+  <thead>
+    <tr>
+      <td>id</td>
+      <td>Name</td>
+      <td>DOB</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor ="let i of todos">
+      <td>{{i.id}}</td>
+      <td>{{i.name}}</td>
+      <td>{{i.DOB | date}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
